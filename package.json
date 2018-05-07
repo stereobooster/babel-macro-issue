@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "lqip.macro": "^0.1.4",
+    "import-all.macro": "^2.0.3",
     "react": "^16.3.2",
     "react-dom": "^16.3.2",
     "react-scripts": "2.0.0-next.66cc7a90"
@@ -12,7 +12,7 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
-    "test:ci": "CI=true react-scripts test --env=jsdom",
+    "test:ci": "react-scripts test --env=jsdom",
     "test:coverage": "CI=true react-scripts test --env=jsdom --coverage",
     "eject": "react-scripts eject"
   },
