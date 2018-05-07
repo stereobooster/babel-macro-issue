@@ -1,4 +1,4 @@
-# Babel Macor Issue
+# Babel Macro Issue
 
 ```
 yarn
