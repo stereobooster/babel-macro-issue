@@ -1,17 +1,10 @@
 const filename = "test.js";
-const src = `
-import importAll from "import-all.macro";
-
+const src = `import importAll from "import-all.macro";
 const all = importAll("./components/*.js");
-
-all.then(all => console.log(all));
-`;
-
+all.then(all => console.log(all));`;
 const options = {
-  compact: false,
   presets: [
     [
-      // ES features necessary for user's Node version
       require("@babel/preset-env").default,
       {
         targets: {
@@ -20,7 +13,6 @@ const options = {
       }
     ]
   ],
-  sourceMaps: "both",
   plugins: [
     require("babel-plugin-macros"),
     [
@@ -32,7 +24,5 @@ const options = {
     ]
   ]
 };
-
 const core = require("babel-core");
-
 const transformResult = core.transform(src, { filename, ...options });
