@@ -6,9 +6,7 @@ const options = {
     [
       require("@babel/preset-env").default,
       {
-        targets: {
-          node: "6.12"
-        }
+        targets: { node: "6.12" }
       }
     ]
   ],
