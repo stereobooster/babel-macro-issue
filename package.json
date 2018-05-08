@@ -4,12 +4,13 @@
   "private": true,
   "dependencies": {
     "@babel/core": "^7.0.0-beta.46",
+    "@babel/preset-env": "^7.0.0-beta.46",
     "babel-core": "^7.0.0-0",
     "babel-plugin-istanbul": "^4.1.6",
-    "babel-preset-react-app": "^4.0.0-next.66cc7a90",
+    "babel-plugin-macros": "^2.2.0",
     "import-all.macro": "^2.0.3"
   },
   "scripts": {
-    "test": "NODE_ENV=test node index.js"
+    "test": "node index.js"
   }
 }
