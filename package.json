@@ -5,7 +5,7 @@
   "dependencies": {
     "@babel/core": "^7.0.0-beta.46",
     "babel-core": "^7.0.0-0",
-    "babel-jest": "^23.0.0-charlie.1",
+    "babel-plugin-istanbul": "^4.1.6",
     "babel-preset-react-app": "^4.0.0-next.66cc7a90",
     "import-all.macro": "^2.0.3"
   },
