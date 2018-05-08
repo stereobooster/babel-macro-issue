@@ -21,5 +21,4 @@ const options = {
     ]
   ]
 };
-const core = require("babel-core");
-core.transform(src, { filename, ...options });
+require("babel-core").transform(src, { filename, ...options });
