@@ -1,7 +1,6 @@
 const filename = "test.js";
 const src = `import importAll from "import-all.macro";
-const all = importAll("./components/*.js");
-all.then(all => console.log(all));`;
+const all = importAll("./components/*.js");`;
 const options = {
   presets: [
     [
@@ -25,4 +24,4 @@ const options = {
   ]
 };
 const core = require("babel-core");
-const transformResult = core.transform(src, { filename, ...options });
+core.transform(src, { filename, ...options });
