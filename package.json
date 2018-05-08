@@ -3,7 +3,8 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "babel-core": "^6.26.3",
+    "@babel/core": "^7.0.0-beta.46",
+    "babel-core": "^7.0.0-0",
     "babel-jest": "^23.0.0-charlie.1",
     "babel-preset-react-app": "^4.0.0-next.66cc7a90",
     "import-all.macro": "^2.0.3"
